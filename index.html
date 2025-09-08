@@ -15,39 +15,99 @@
         <li class="hover:text-gray-200 text-xl"><a href="">servicios</a></li>
       </ul>
     </header>
-    <br>
-    <br>
-    <section>
-      <p class="text-sm">Texto SM </p>
-      <p class="text-base">Texto Base </p>
-      <p class="text-lg">Texto Lg </p>
-      <p class="text-xl">Texto XL </p>
-      <p class="text-2xl">Texto 2XL </p>
+    <br />
+    <br />
+    <section class="p-6">
+      <p class="text-sm">Texto SM</p>
+      <p class="text-base">Texto Base</p>
+      <p class="text-lg">Texto Lg</p>
+      <p class="text-xl">Texto XL</p>
+      <p class="text-2xl">Texto 2XL</p>
 
-
-      <p class="text-thin">Texto Delgado </p>
-      <p class="text-bold">Texto Bold</p>
-      <p class="text-extrabold">Texto Extra Bold </p>
-      <p class="text-italic">Texto cursivo </p>
-
+      <p class="font-thin">Texto Delgado</p>
+      <p class="font-bold">Texto Bold</p>
+      <p class="font-extrabold">Texto Extra Bold</p>
+      <p class="italic">Texto cursivo</p>
 
       <p class="text-center">Texto centrado</p>
-      <p class="text-left">Texto izquierda </p>
-      <p class="text-right">Texto derecha </p>
+      <p class="text-left">Texto izquierda</p>
+      <p class="text-right">Texto derecha</p>
       <p class="text-justify">Texto justificado</p>
 
+      <p class="tracking-wide">Espaciado Wide</p>
+      <p class="tracking-wider">Espaciado Wider</p>
+      <p class="tracking-tight">Espaciado Tight</p>
+      <p class="leading-loose">Interlineado Loose</p>
 
-      <p class="tracking-wide">Espaciado</p>
-      <p class="tracking-lighter">Espaciado</p>
-      <p class="tracking-none">Espaciado</p>
-      <p class="text-loose">Espaciado</p>
-
-
-      <p class="text-red-400 ">Color</p>
-
-
-
-
+      <p class="text-red-400">Texto Rojo</p>
     </section>
+    <br />
+    <hr />
+    <br />
+    <h3 class="font-bold text-3xl">Contenedores y flexbox</h3>
+    <div class="w-full border border-2 flex md:flex-row gap-4 p-5 flex-col">
+      <div
+        class="bg-blue-400 md:flex-1 text-white font-bold flex items-center justify-center h-64"
+      >
+        Contenedor 1
+      </div>
+      <div
+        class="bg-blue-500 md:flex-1 text-white font-bold flex items-center justify-center h-64"
+      >
+        Contenedor 2
+      </div>
+      <div
+        class="bg-blue-600 md:flex-1 text-white font-bold flex items-center justify-center h-64"
+      >
+        Contenedor 3
+      </div>
+    </div>
+    <br /><br />
+    <div class="w-full border border-2 h-screen flex flex-col md:flex-row">
+      <div
+        class="bg-blue-400 text-white text-6xl flex justify-center items-center md:flex-1 h-full"
+      >
+        Texto 1
+      </div>
+      <div
+        class="bg-blue-500 text-white text-6xl flex justify-center items-center md:flex-1 h-full"
+      >
+        Texto 2
+      </div>
+    </div>
+    <br />
+    <br />
+    <hr />
+    <br />
+    <h2 class="font-bold text-3xl">GRID</h2>
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-4 h-128 md:h-64 text-center font-bold text-3xl">
+      <div class="bg-yellow-500 md:col-span-3">Contenedor 1</div>
+      <div class="bg-pink-500">Contenedor 2</div>
+      <div class="bg-blue-300">Contenedor 3</div>
+      <div class="bg-red-300">Contenedor 4</div>
+      <div class="bg-violet-300">Contenedor 5</div>
+    </div>
+    <div class="space-y-4">
+  <label class="block">
+    <span class="text-gray-700">Correo electrónico</span>
+    <input 
+      type="email" 
+      placeholder="ejemplo@correo.com"
+      class="mt-1 block w-full rounded-md border-gray-300 shadow-sm 
+             focus:border-blue-500 focus:ring focus:ring-blue-500 focus:ring-opacity-50"
+    />
+  </label>
+
+  <label class="block">
+    <span class="text-gray-700">Contraseña</span>
+    <input 
+      type="password"
+      placeholder="********"
+      class="mt-1 block w-full rounded-md border-gray-300 shadow-sm 
+             focus:border-blue-500 focus:ring focus:ring-blue-500 focus:ring-opacity-50"
+    />
+  </label>
+</div>
+
   </body>
 </html>
